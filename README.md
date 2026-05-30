@@ -52,21 +52,4 @@ Outputs:
 - `reports/retention_analysis.png`
 - `data/processed/churn_risk_scored.csv`
 
-## How to present (60–90 sec)
 
-1) **Churn drivers:** show churn lift by complaints, satisfaction, and recency.
-2) **Cohorts:** show the heatmap (tenure × recency) as a retention proxy.
-3) **Churn risk:** show top red/amber customers with the model probability.
-4) **Growth levers:** quantify impact of reducing churn in a simple scenario model.
-
-## 3 Growth levers (data-backed)
-
-These are intentionally phrased as *actionable levers* that map to features in the dataset and typically rank high in feature importance:
-
-1. **Complaint resolution / SLA improvement** (Complain)
-2. **Win-back journeys for high-recency customers** (DaySinceLastOrder)
-3. **Engagement programs for low-order customers** (OrderCount, CouponUsed)
-
----
-
-If you want, I can also add an Excel template that reads `data/processed/` and produces the dashboard tables automatically.
